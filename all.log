@@ -1,0 +1,5 @@
+2022-10-28 12:08:51.751 [main] INFO  StaticClassesEnumsExceptions.Calculator - Running method calculate
+2022-10-28 12:08:51.756 [main] ERROR StaticClassesEnumsExceptions.Calculator - Something bad has happened
+java.lang.NullPointerException: Cannot invoke "StaticClassesEnumsExceptions.Calculator$Type.ordinal()" because "type" is null
+	at StaticClassesEnumsExceptions.Calculator.calculate(Calculator.java:37) [classes/:?]
+	at StaticClassesEnumsExceptions.Main.main(Main.java:13) [classes/:?]
